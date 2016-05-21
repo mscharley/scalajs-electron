@@ -6,7 +6,7 @@ lazy val scalaJSElectron = (project in file(".")).
   settings(
     organization := "com.mscharley",
     name := "scalajs-electron",
-    version := "0.2.0-SNAPSHOT",
+    version := "0.1.1",
     scalaVersion := "2.11.8",
 
     resolvers += Resolver.sonatypeRepo("public"),

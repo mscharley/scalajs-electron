@@ -11,7 +11,7 @@ lazy val scalaJSElectron = (project in file(".")).
 
     resolvers += Resolver.sonatypeRepo("public"),
     libraryDependencies ++= Seq(
-      "com.mscharley" %%% "scalajs-nodejs" % "0.1.0"
+      "com.mscharley" %%% "scalajs-nodejs" % "0.1.1"
     ),
 
     // Info for Sonatype.

@@ -4,8 +4,10 @@ import electron.raw
 import electron.ipc
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
+@JSGlobal
 abstract class Electron extends js.Object {
   val app: raw.Application = js.native
   val BrowserWindow: js.Dynamic = js.native

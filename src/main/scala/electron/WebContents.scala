@@ -1,8 +1,10 @@
 package electron
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
+@JSGlobal
 abstract class WebContents extends js.Any {
   val debugger: js.Dynamic = js.native
   val devToolsWebContents: WebContents = js.native
